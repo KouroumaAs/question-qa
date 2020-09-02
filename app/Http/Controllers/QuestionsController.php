@@ -39,6 +39,7 @@ class QuestionsController extends Controller
         //
 
         $questions = new Question();
+        //dd($questions);
 
         return view('questions.create',compact('questions'));
     }
